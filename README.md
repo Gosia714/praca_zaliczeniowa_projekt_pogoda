@@ -4,7 +4,8 @@ Weather Api - WSB
 * [General info]
 * [Technologies]
 * [Setup]
-* [Example of use]## General info
+* [Example of use]
+## General info
 This project is simple weather web application using free weather api.
 ## Technologies
 Project is created with Python and Flask. 
