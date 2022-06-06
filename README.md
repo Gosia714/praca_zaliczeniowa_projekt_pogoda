@@ -26,6 +26,6 @@ Open your web browser and go to
 127.0.0.1:5000/:
 ```
 
-##Then choose your city and click on 'DALEJ' button
-##Here you got!
+Then choose your city and click on 'DALEJ' button
+Here you got!
 
