@@ -1,0 +1,33 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1"> Pogodowe API - WSB Projekt </span>
+  </div>
+</nav>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Pogodowe API - WSB Projekt </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <center><br>
+    <h5><p> Witaj !<br><br>
+      Czy pada czy wieje nasza prognoza wie co się dzieje!<br><br>
+      Dziś jest: {{current_day}}<br><br>
+      aktualna godzina: {{current_time}}</p><br></h5><br>
+    <center><h5>Wpisz interesującą cię miejscowość: </h5></center>
+    <div>
+        <form class="row g-3 justify-content-center" action="/pogoda" method="post" >
+          <div class="col-auto">
+            <input type="text" class="form-control" placeholder="np. Poznań" name="miejscowosc">
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Dalej</button>
+          </div>
+        </form></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
